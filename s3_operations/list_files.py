@@ -45,6 +45,7 @@ print(len(keys))
 
 print(f'Elapsed time: {t2-t1}')
 
+
 for key in keys:
     filename = Path(key).stem
 
