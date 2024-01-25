@@ -7,7 +7,7 @@ from nexa_coding_interpreter.metadata import Metadata
 import os
 from botocore.exceptions import ClientError
 
-files_path = "../files/videos"
+files_path = "/home/tim/Work/nexa/nexa-audio-normalization/data/peak_normalized_box_downloads"
 log_file_path = "../files/logs/s3_upload.log"
 
 logging.basicConfig(filename=log_file_path, level=logging.INFO, filemode="w",
@@ -25,7 +25,7 @@ class S3Uploader:
 
         self.s3 = session.client('s3')
 
-        self.bucket_name = 'mainstack-videofiles720pc366226e-haxvasmgqgdh'
+        self.bucket_name = 'reco-video-files'
 
     def upload(self, path, file_name):
         """
@@ -38,7 +38,9 @@ class S3Uploader:
         print(f'{path=}')
         print(f'{file_name=}')
 
-        self.s3.upload_file(path, self.bucket_name, file_name)
+        object_key = f'fmri/{file_name}'
+
+        self.s3.upload_file(path, self.bucket_name, object_key)
 
     def file_name_exists(self, file_name):
         """
@@ -76,6 +78,7 @@ def process_files(directory):
 
         if (not metadata.mix
                 and (metadata.intensity_level in [2, 3] or metadata.emotion_1_abr == "neu")
+                # Two error files were added manually, see README
                 and not metadata.error):
             file_name = os.path.basename(filepath)
 

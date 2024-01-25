@@ -1,0 +1,681 @@
+{
+    "user_id": "dsadas",
+    "survey_items": [
+        {
+            "filename": "A220_disa_p_3.mp4",
+            "video_id": "A220",
+            "emotion_id": "37"
+        },
+        {
+            "filename": "A207_sha_p_2.mp4",
+            "video_id": "A207",
+            "emotion_id": "43"
+        },
+        {
+            "filename": "A437_sha_p_3.mp4",
+            "video_id": "A437",
+            "emotion_id": "43"
+        },
+        {
+            "filename": "A91_disg_v_3.mp4",
+            "video_id": "A91",
+            "emotion_id": "35"
+        },
+        {
+            "filename": "A337_fea_v_2.mp4",
+            "video_id": "A337",
+            "emotion_id": "10"
+        },
+        {
+            "filename": "A435_fea_v_2.mp4",
+            "video_id": "A435",
+            "emotion_id": "10"
+        },
+        {
+            "filename": "A67_bor_v_2.mp4",
+            "video_id": "A67",
+            "emotion_id": "26"
+        },
+        {
+            "filename": "A227_sad_v_3.mp4",
+            "video_id": "A227",
+            "emotion_id": "6"
+        },
+        {
+            "filename": "A200_disa_v_3.mp4",
+            "video_id": "A200",
+            "emotion_id": "37"
+        },
+        {
+            "filename": "A334_dou_v_3.mp4",
+            "video_id": "A334",
+            "emotion_id": "3"
+        },
+        {
+            "filename": "A221_fea_p_3.mp4",
+            "video_id": "A221",
+            "emotion_id": "10"
+        },
+        {
+            "filename": "A405_neg_sur_v_2.mp4",
+            "video_id": "A405",
+            "emotion_id": "11"
+        },
+        {
+            "filename": "A425_sad_p_3.mp4",
+            "video_id": "A425",
+            "emotion_id": "6"
+        },
+        {
+            "filename": "A303_sha_p_3.mp4",
+            "video_id": "A303",
+            "emotion_id": "43"
+        },
+        {
+            "filename": "A337_disa_p_3.mp4",
+            "video_id": "A337",
+            "emotion_id": "37"
+        },
+        {
+            "filename": "A303_disa_v_3.mp4",
+            "video_id": "A303",
+            "emotion_id": "37"
+        },
+        {
+            "filename": "A334_sad_p_2.mp4",
+            "video_id": "A334",
+            "emotion_id": "6"
+        },
+        {
+            "filename": "A227_sha_p_2.mp4",
+            "video_id": "A227",
+            "emotion_id": "43"
+        },
+        {
+            "filename": "A207_emb_v_2.mp4",
+            "video_id": "A207",
+            "emotion_id": "39"
+        },
+        {
+            "filename": "A407_neg_sur_p_3.mp4",
+            "video_id": "A407",
+            "emotion_id": "11"
+        },
+        {
+            "filename": "A417_dou_v_2.mp4",
+            "video_id": "A417",
+            "emotion_id": "3"
+        },
+        {
+            "filename": "A200_ang_v_2.mp4",
+            "video_id": "A200",
+            "emotion_id": "12"
+        },
+        {
+            "filename": "A417_sha_p_2.mp4",
+            "video_id": "A417",
+            "emotion_id": "43"
+        },
+        {
+            "filename": "A410_sad_p_2.mp4",
+            "video_id": "A410",
+            "emotion_id": "6"
+        },
+        {
+            "filename": "A55_dou_v_3_ver1.mp4",
+            "video_id": "A55",
+            "emotion_id": "3"
+        },
+        {
+            "filename": "A407_ang_v_2.mp4",
+            "video_id": "A407",
+            "emotion_id": "12"
+        },
+        {
+            "filename": "A227_disg_v_3.mp4",
+            "video_id": "A227",
+            "emotion_id": "35"
+        },
+        {
+            "filename": "A437_ang_p_3.mp4",
+            "video_id": "A437",
+            "emotion_id": "12"
+        },
+        {
+            "filename": "A407_neg_sur_p_2.mp4",
+            "video_id": "A407",
+            "emotion_id": "11"
+        },
+        {
+            "filename": "A67_fea_v_3.mp4",
+            "video_id": "A67",
+            "emotion_id": "10"
+        },
+        {
+            "filename": "A437_emb_v_3.mp4",
+            "video_id": "A437",
+            "emotion_id": "39"
+        },
+        {
+            "filename": "A332_disg_v_2.mp4",
+            "video_id": "A332",
+            "emotion_id": "35"
+        },
+        {
+            "filename": "A435_ang_v_2.mp4",
+            "video_id": "A435",
+            "emotion_id": "12"
+        },
+        {
+            "filename": "A205_disg_v_3.mp4",
+            "video_id": "A205",
+            "emotion_id": "35"
+        },
+        {
+            "filename": "A67_sha_p_3.mp4",
+            "video_id": "A67",
+            "emotion_id": "43"
+        },
+        {
+            "filename": "A337_ang_v_3.mp4",
+            "video_id": "A337",
+            "emotion_id": "12"
+        },
+        {
+            "filename": "A407_emb_v_2.mp4",
+            "video_id": "A407",
+            "emotion_id": "39"
+        },
+        {
+            "filename": "A207_sad_p_3.mp4",
+            "video_id": "A207",
+            "emotion_id": "6"
+        },
+        {
+            "filename": "A417_neg_sur_p_2.mp4",
+            "video_id": "A417",
+            "emotion_id": "11"
+        },
+        {
+            "filename": "A327_emb_p_2.mp4",
+            "video_id": "A327",
+            "emotion_id": "39"
+        },
+        {
+            "filename": "A67_emb_p_3.mp4",
+            "video_id": "A67",
+            "emotion_id": "39"
+        },
+        {
+            "filename": "A323_gui_v_3.mp4",
+            "video_id": "A323",
+            "emotion_id": "40"
+        },
+        {
+            "filename": "A435_neg_sur_p_3.mp4",
+            "video_id": "A435",
+            "emotion_id": "11"
+        },
+        {
+            "filename": "A405_neg_sur_v_3.mp4",
+            "video_id": "A405",
+            "emotion_id": "11"
+        },
+        {
+            "filename": "A102_emb_p_2.mp4",
+            "video_id": "A102",
+            "emotion_id": "39"
+        },
+        {
+            "filename": "A207_emb_p_3.mp4",
+            "video_id": "A207",
+            "emotion_id": "39"
+        },
+        {
+            "filename": "A410_sad_p_3.mp4",
+            "video_id": "A410",
+            "emotion_id": "6"
+        },
+        {
+            "filename": "A437_disa_p_3.mp4",
+            "video_id": "A437",
+            "emotion_id": "37"
+        },
+        {
+            "filename": "A405_sad_v_3.mp4",
+            "video_id": "A405",
+            "emotion_id": "6"
+        },
+        {
+            "filename": "A64_gui_p_3.mp4",
+            "video_id": "A64",
+            "emotion_id": "40"
+        },
+        {
+            "filename": "A207_disg_p_2.mp4",
+            "video_id": "A207",
+            "emotion_id": "35"
+        },
+        {
+            "filename": "A102_disg_v_2.mp4",
+            "video_id": "A102",
+            "emotion_id": "35"
+        },
+        {
+            "filename": "A91_disa_v_2.mp4",
+            "video_id": "A91",
+            "emotion_id": "37"
+        },
+        {
+            "filename": "A332_ang_v_3.mp4",
+            "video_id": "A332",
+            "emotion_id": "12"
+        },
+        {
+            "filename": "A424_disg_v_2.mp4",
+            "video_id": "A424",
+            "emotion_id": "35"
+        },
+        {
+            "filename": "A323_disg_p_3.mp4",
+            "video_id": "A323",
+            "emotion_id": "35"
+        },
+        {
+            "filename": "A64_gui_v_3.mp4",
+            "video_id": "A64",
+            "emotion_id": "40"
+        },
+        {
+            "filename": "A405_disa_p_2.mp4",
+            "video_id": "A405",
+            "emotion_id": "37"
+        },
+        {
+            "filename": "A424_neg_sur_p_3.mp4",
+            "video_id": "A424",
+            "emotion_id": "11"
+        },
+        {
+            "filename": "A220_sad_v_2.mp4",
+            "video_id": "A220",
+            "emotion_id": "6"
+        },
+        {
+            "filename": "A332_bor_p_3.mp4",
+            "video_id": "A332",
+            "emotion_id": "26"
+        },
+        {
+            "filename": "A435_gui_p_2.mp4",
+            "video_id": "A435",
+            "emotion_id": "40"
+        },
+        {
+            "filename": "A67_emb_v_2.mp4",
+            "video_id": "A67",
+            "emotion_id": "39"
+        },
+        {
+            "filename": "A207_disa_p_3.mp4",
+            "video_id": "A207",
+            "emotion_id": "37"
+        },
+        {
+            "filename": "A405_ang_p_2.mp4",
+            "video_id": "A405",
+            "emotion_id": "12"
+        },
+        {
+            "filename": "A72_sha_p_3.mp4",
+            "video_id": "A72",
+            "emotion_id": "43"
+        },
+        {
+            "filename": "A323_bor_p_3.mp4",
+            "video_id": "A323",
+            "emotion_id": "26"
+        },
+        {
+            "filename": "A332_neg_sur_v_2_e.mp4",
+            "video_id": "A332",
+            "emotion_id": "11"
+        },
+        {
+            "filename": "A407_dou_p_2.mp4",
+            "video_id": "A407",
+            "emotion_id": "3"
+        },
+        {
+            "filename": "A327_disa_p_2.mp4",
+            "video_id": "A327",
+            "emotion_id": "37"
+        },
+        {
+            "filename": "A424_ang_v_3.mp4",
+            "video_id": "A424",
+            "emotion_id": "12"
+        },
+        {
+            "filename": "A438_fea_v_2.mp4",
+            "video_id": "A438",
+            "emotion_id": "10"
+        },
+        {
+            "filename": "A435_fea_p_2.mp4",
+            "video_id": "A435",
+            "emotion_id": "10"
+        },
+        {
+            "filename": "A437_bor_p_2.mp4",
+            "video_id": "A437",
+            "emotion_id": "26"
+        },
+        {
+            "filename": "A426_disa_v_2.mp4",
+            "video_id": "A426",
+            "emotion_id": "37"
+        },
+        {
+            "filename": "A438_neg_sur_v_3.mp4",
+            "video_id": "A438",
+            "emotion_id": "11"
+        },
+        {
+            "filename": "A221_neg_sur_v_2.mp4",
+            "video_id": "A221",
+            "emotion_id": "11"
+        },
+        {
+            "filename": "A426_sha_p_3.mp4",
+            "video_id": "A426",
+            "emotion_id": "43"
+        },
+        {
+            "filename": "A221_emb_v_2.mp4",
+            "video_id": "A221",
+            "emotion_id": "39"
+        },
+        {
+            "filename": "A405_disg_v_2.mp4",
+            "video_id": "A405",
+            "emotion_id": "35"
+        },
+        {
+            "filename": "A417_disg_p_2.mp4",
+            "video_id": "A417",
+            "emotion_id": "35"
+        },
+        {
+            "filename": "A327_sha_p_2.mp4",
+            "video_id": "A327",
+            "emotion_id": "43"
+        },
+        {
+            "filename": "A220_sad_v_3.mp4",
+            "video_id": "A220",
+            "emotion_id": "6"
+        },
+        {
+            "filename": "A337_dou_p_2.mp4",
+            "video_id": "A337",
+            "emotion_id": "3"
+        },
+        {
+            "filename": "A72_ang_v_2.mp4",
+            "video_id": "A72",
+            "emotion_id": "12"
+        },
+        {
+            "filename": "A426_gui_p_2.mp4",
+            "video_id": "A426",
+            "emotion_id": "40"
+        },
+        {
+            "filename": "A405_sha_v_2.mp4",
+            "video_id": "A405",
+            "emotion_id": "43"
+        },
+        {
+            "filename": "A425_bor_p_3.mp4",
+            "video_id": "A425",
+            "emotion_id": "26"
+        },
+        {
+            "filename": "A425_disg_p_3.mp4",
+            "video_id": "A425",
+            "emotion_id": "35"
+        },
+        {
+            "filename": "A220_fea_p_3.mp4",
+            "video_id": "A220",
+            "emotion_id": "10"
+        },
+        {
+            "filename": "A64_ang_v_2.mp4",
+            "video_id": "A64",
+            "emotion_id": "12"
+        },
+        {
+            "filename": "A417_ang_v_3.mp4",
+            "video_id": "A417",
+            "emotion_id": "12"
+        },
+        {
+            "filename": "A55_bor_v_2_ver1.mp4",
+            "video_id": "A55",
+            "emotion_id": "26"
+        },
+        {
+            "filename": "A425_sad_v_3.mp4",
+            "video_id": "A425",
+            "emotion_id": "6"
+        },
+        {
+            "filename": "A221_bor_v_3.mp4",
+            "video_id": "A221",
+            "emotion_id": "26"
+        },
+        {
+            "filename": "A405_sha_v_3.mp4",
+            "video_id": "A405",
+            "emotion_id": "43"
+        },
+        {
+            "filename": "A67_disa_v_2.mp4",
+            "video_id": "A67",
+            "emotion_id": "37"
+        },
+        {
+            "filename": "A337_bor_v_2.mp4",
+            "video_id": "A337",
+            "emotion_id": "26"
+        },
+        {
+            "filename": "A426_dou_p_3.mp4",
+            "video_id": "A426",
+            "emotion_id": "3"
+        },
+        {
+            "filename": "A327_gui_v_3.mp4",
+            "video_id": "A327",
+            "emotion_id": "40"
+        },
+        {
+            "filename": "A410_bor_p_2.mp4",
+            "video_id": "A410",
+            "emotion_id": "26"
+        },
+        {
+            "filename": "A438_emb_p_2.mp4",
+            "video_id": "A438",
+            "emotion_id": "39"
+        },
+        {
+            "filename": "A64_dou_p_2.mp4",
+            "video_id": "A64",
+            "emotion_id": "3"
+        },
+        {
+            "filename": "A205_ang_p_3.mp4",
+            "video_id": "A205",
+            "emotion_id": "12"
+        },
+        {
+            "filename": "A327_fea_v_3.mp4",
+            "video_id": "A327",
+            "emotion_id": "10"
+        },
+        {
+            "filename": "A337_fea_p_3.mp4",
+            "video_id": "A337",
+            "emotion_id": "10"
+        },
+        {
+            "filename": "A332_dou_p_3.mp4",
+            "video_id": "A332",
+            "emotion_id": "3"
+        },
+        {
+            "filename": "A327_fea_p_3.mp4",
+            "video_id": "A327",
+            "emotion_id": "10"
+        },
+        {
+            "filename": "A72_fea_v_2.mp4",
+            "video_id": "A72",
+            "emotion_id": "10"
+        },
+        {
+            "filename": "A303_neg_sur_v_3.mp4",
+            "video_id": "A303",
+            "emotion_id": "11"
+        },
+        {
+            "filename": "A102_dou_v_2.mp4",
+            "video_id": "A102",
+            "emotion_id": "3"
+        },
+        {
+            "filename": "A227_gui_v_3.mp4",
+            "video_id": "A227",
+            "emotion_id": "40"
+        },
+        {
+            "filename": "A334_gui_v_2.mp4",
+            "video_id": "A334",
+            "emotion_id": "40"
+        },
+        {
+            "filename": "A337_emb_v_3.mp4",
+            "video_id": "A337",
+            "emotion_id": "39"
+        },
+        {
+            "filename": "A102_bor_v_3.mp4",
+            "video_id": "A102",
+            "emotion_id": "26"
+        },
+        {
+            "filename": "A337_bor_p_2.mp4",
+            "video_id": "A337",
+            "emotion_id": "26"
+        },
+        {
+            "filename": "A437_dou_v_3.mp4",
+            "video_id": "A437",
+            "emotion_id": "3"
+        },
+        {
+            "filename": "A207_dou_v_3.mp4",
+            "video_id": "A207",
+            "emotion_id": "3"
+        },
+        {
+            "filename": "A227_gui_p_2.mp4",
+            "video_id": "A227",
+            "emotion_id": "40"
+        },
+        {
+            "filename": "A334_gui_v_3.mp4",
+            "video_id": "A334",
+            "emotion_id": "40"
+        },
+        {
+            "filename": "A435_bor_v_3.mp4",
+            "video_id": "A435",
+            "emotion_id": "26"
+        },
+        {
+            "filename": "A407_sad_v_2.mp4",
+            "video_id": "A407",
+            "emotion_id": "6"
+        },
+        {
+            "filename": "A221_gui_v_2.mp4",
+            "video_id": "A221",
+            "emotion_id": "40"
+        },
+        {
+            "filename": "A72_disa_v_2.mp4",
+            "video_id": "A72",
+            "emotion_id": "37"
+        },
+        {
+            "filename": "A435_sha_v_2.mp4",
+            "video_id": "A435",
+            "emotion_id": "43"
+        },
+        {
+            "filename": "A303_gui_v_3.mp4",
+            "video_id": "A303",
+            "emotion_id": "40"
+        },
+        {
+            "filename": "A332_sad_v_2.mp4",
+            "video_id": "A332",
+            "emotion_id": "6"
+        },
+        {
+            "filename": "A303_disg_v_3.mp4",
+            "video_id": "A303",
+            "emotion_id": "35"
+        },
+        {
+            "filename": "A410_fea_v_2.mp4",
+            "video_id": "A410",
+            "emotion_id": "10"
+        },
+        {
+            "filename": "A327_dou_p_2.mp4",
+            "video_id": "A327",
+            "emotion_id": "3"
+        },
+        {
+            "filename": "A207_emb_v_3.mp4",
+            "video_id": "A207",
+            "emotion_id": "39"
+        },
+        {
+            "filename": "A407_neg_sur_v_2.mp4",
+            "video_id": "A407",
+            "emotion_id": "11"
+        }
+    ],
+    "emotion_alternatives": [
+        "10",
+        "12",
+        "35",
+        "39",
+        "26",
+        "40",
+        "37",
+        "6",
+        "11",
+        "43",
+        "3"
+    ],
+    "valence": "neg",
+    "sex": "male",
+    "date_of_birth": "2023-12-05"
+}

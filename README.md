@@ -8,4 +8,12 @@ The script `analyze_files.py` shows video ids with emotion ids where there are i
 
 Often there is some intensity missing for either vocalization or prosody. 
 
+### Note 
+
+Two error files are included manually:
+
+`A332_neg_sur_v_2_e.mp4`	
+
+`A200_pos_sur_v_2_e.mp4`	
+
 

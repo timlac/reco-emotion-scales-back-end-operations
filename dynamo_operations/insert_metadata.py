@@ -1,6 +1,6 @@
 import boto3
 
-table_name = 'MainStack-VideoMetadataTable0E75C188-P8TSTL0OU3JF'
+table_name = 'VideoMetadataStack-VideoMetadataTable0E75C188-HZS71Z49XI80'
 
 session = boto3.Session(profile_name='rackspaceAcc')
 

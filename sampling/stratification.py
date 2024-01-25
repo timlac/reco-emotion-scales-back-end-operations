@@ -1,0 +1,135 @@
+import itertools
+import math
+
+import pandas as pd
+import random
+
+from matplotlib import pyplot as plt
+from nexa_py_sentimotion_mapper.sentimotion_mapper import Mapper
+
+
+def get_opposite_sex(sex):
+    if sex == "m":
+        return "f"
+    elif sex == "f":
+        return "m"
+    else:
+        raise ValueError(f"{sex} is not a valid sex")
+
+
+def sample(df_):
+    # Define categories
+    categories = ['emotion_id', 'sex']
+
+    # Get all unique combinations of categories
+    category_combinations = list(itertools.product(*[df_[category].unique() for category in categories]))
+
+    # Initialize an empty dictionary to store videos by category combination
+    category_combination_videos = {combo: [] for combo in category_combinations}
+
+    # Categorize videos based on all category combinations
+    for _, row in df_.iterrows():
+        category_combo = tuple(row[category] for category in categories)
+        category_combination_videos[category_combo].append(row['filename'])
+
+    # Initialize an empty list to store the final set of 132 videos for each rater
+    ret = []
+
+    # Stratified sampling within each category combination
+    for category_combo in category_combinations:
+        videos = category_combination_videos[category_combo]
+
+        if not videos:
+            emotion, sex = category_combo
+            videos = category_combination_videos[(emotion, get_opposite_sex(sex))]
+
+        selected_videos = random.sample(videos, 1)
+        ret.extend(selected_videos)
+
+    random.shuffle(category_combinations)
+
+    emotion_counts = {}
+    sex_count = {'m': 0, 'f': 0}
+
+    # Stratified sampling within each category combination
+    for category_combo in category_combinations:
+        emotion, sex = category_combo
+
+        # Check if we've seen this emotion before
+        if emotion not in emotion_counts:
+            emotion_counts[emotion] = 0
+
+        # Check if we've already added one entry for this emotion
+        if emotion_counts[emotion] < 1:
+            videos = category_combination_videos[category_combo]
+
+            videos = [v for v in videos if v not in ret]
+
+            if not videos:
+                emotion, sex = category_combo
+                videos = category_combination_videos[(emotion, get_opposite_sex(sex))]
+
+                videos = [v for v in videos if v not in ret]
+
+            selected_videos = random.sample(videos, 1)
+            ret.extend(selected_videos)
+
+            emotion_counts[emotion] += 1
+            sex_count[sex] += 1
+
+    # Randomize the order of videos within the final set
+    random.shuffle(ret)
+
+    return ret
+
+
+def evaluate(df_, video_set):
+    print(f'{len(video_set)=}')
+
+    selected_rows = df_[df_['filename'].isin(video_set)]
+    emotion_id_counts = selected_rows["emotion_id"].value_counts()
+    print("all emotions occur 3 times:", (emotion_id_counts == 3).all())
+
+    sex_counts = selected_rows["sex"].value_counts()
+    print(f'{sex_counts=}')
+
+
+sampled = []
+
+for i in range(50):
+    # Load your dataset (replace 'videos.csv' with your data source)
+    df = pd.read_csv('../files/items.csv')
+
+    final_video_set = sample(df[~df['filename'].isin(sampled)])
+
+    sampled.extend(final_video_set)
+
+    evaluate(df, final_video_set)
+    if i > 25:
+        remaining = df[~df['filename'].isin(sampled)]
+
+        emotion_id_counts = remaining["emotion_id"].value_counts()
+
+        # Map emotion IDs to actual emotions using your Mapper class
+        mapped_emotions = emotion_id_counts.index.map(Mapper.get_emotion_from_id)
+
+        # Create a histogram plot
+        plt.figure(figsize=(12, 6))
+        plt.bar(mapped_emotions, emotion_id_counts.values)
+
+        # Customize the plot
+        plt.xlabel('Emotion')
+        plt.ylabel('Frequency')
+        plt.title('Frequency of Emotions')
+        plt.xticks(rotation=90)  # Rotate x-axis labels for readability
+
+        plt.tight_layout()
+
+        # Show the plot
+        plt.show()
+
+        sex_counts = df["sex"].value_counts()
+        print(f'{sex_counts=}')
+
+
+
